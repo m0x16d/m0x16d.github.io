@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ENZINE</title>
+  
+  <subtitle>M365 界隈</subtitle>
+  <link href="https://m0x16d.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://m0x16d.github.io/"/>
+  <updated>2021-02-25T20:22:31.885Z</updated>
+  <id>https://m0x16d.github.io/</id>
+  
+  <author>
+    <name>m0x16d</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="https://m0x16d.github.io/2021/02/24/hello/"/>
+    <id>https://m0x16d.github.io/2021/02/24/hello/</id>
+    <published>2021-02-23T17:42:40.000Z</published>
+    <updated>2021-02-25T20:22:31.885Z</updated>
+    
+    <content type="html"><![CDATA[<h1><span id="tocc">TOCC</span></h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-toc --save</span><br></pre></td></tr></table></figure><h2><span id="image">image</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img cyber_icon.png %&#125;</span><br></pre></td></tr></table></figure><img src="/2021/02/24/hello/cyber_icon.png" class><span id="more"></span><h2><span id="youtube">youtube</span></h2><div class="video-container"><iframe src="https://www.youtube.com/embed/ITA0heQTiaU" frameborder="0" loading="lazy" allowfullscreen></iframe></div><h2><span id="twitter">twitter</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-twitter --save</span><br></pre></td></tr></table></figure><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/m_league_/status/1364205866824597511"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- toc --><!-- tocstop -->]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;TOCC&quot;&gt;&lt;a href=&quot;#TOCC&quot; class=&quot;headerlink&quot; title=&quot;TOCC&quot;&gt;&lt;/a&gt;TOCC&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-toc --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;image&quot;&gt;&lt;a href=&quot;#image&quot; class=&quot;headerlink&quot; title=&quot;image&quot;&gt;&lt;/a&gt;image&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% asset_img cyber_icon.png %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;img src=&quot;/2021/02/24/hello/cyber_icon.png&quot; class=&quot;&quot;&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo Tips</title>
+    <link href="https://m0x16d.github.io/2021/02/24/hexo-tips/"/>
+    <id>https://m0x16d.github.io/2021/02/24/hexo-tips/</id>
+    <published>2021-02-23T15:00:00.000Z</published>
+    <updated>2021-02-25T21:50:59.010Z</updated>
+    
+    <content type="html"><![CDATA[<h2><span id="local">local</span></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;New Post&quot;</span></span><br><span class="line">hexo c</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><h2><span id="git">git</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br><span class="line">url: https:&#x2F;&#x2F;m0x16d.github.io&#x2F;</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;m0x16d&#x2F;m0x16d.github.io</span><br><span class="line">  branch: gh-pages</span><br><span class="line">  message: &quot;Site updated: &#123;&#123; now(&#39;YYYY-MM-DD HH:mm:ss&#39;) &#125;&#125; [skip ci]&quot;</span><br><span class="line"></span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo generate -d</span><br></pre></td></tr></table></figure><h2><span id="draft">draft</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new draft &quot;name&quot;</span><br><span class="line">hexo s --draft</span><br></pre></td></tr></table></figure><h2><span id="hexo-clean">hexo clean</span></h2><p>hexo cleanするとpublicフォルダ丸ごと消える<br>gitの履歴ごと消える<br>db.jsonを消せばいい</p><p>.deploy_gitは消してもいい？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;local&quot;&gt;local&lt;/span&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+      
+    
+    
+    
+    <category term="TIPS" scheme="https://m0x16d.github.io/categories/TIPS/"/>
+    
+    
+    <category term="hexo" scheme="https://m0x16d.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
